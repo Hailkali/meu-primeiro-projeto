@@ -2,6 +2,7 @@
 
 <html>
     <head>
+        <meta charset="UTF-8">
         <title> Page Test </title>
         <meta name="description" content="Testando uma pagina">
     </head>
@@ -15,7 +16,7 @@
                 <h2> About this project:</h2>
               <p><strong>As a new programming student</strong>, I am putting my efforts to discover<br><em>wich language i am good with.</em></p>
               <p>I am triying to understand how HTML works, and playing with the possibilities, cause learning can also be fun.</p>
-              <p>So during this test,<b> I'll be using</b> <i>some important <abbr title="Hyper Text Markup Language">HTML</abbr> tags!</i></p>
+              <p>So during this test, I'll be using<i> some <b>important</b> <abbr title="Hyper Text Markup Language">HTML</abbr> tags!</i></p>
             </section>
             <!---To be continued-->
             <section>
@@ -99,9 +100,27 @@
                 </figure>
                 <input type="text" id="p8" name="pergunta8" placeholder="Digite sua resposta...">
             </section>
-            <!--Tabela de pontuação--><!--separar em outra pagina-->
+            <!--Formulario-->
+            <section>
+                <h2> Let a comment below of what you liked the most, or a comment of what you didnt liked</h2>
+                <form>
+                    <fieldset>
+                        <legend>Contact information</legend>
+                        <label for="name"> Your name:</label><br>
+                        <input type="text" id="name" name="name"><br>
+                        <label for="email">Your e-mail addres:</label><br>
+                        <input type="email" id="email" name="email"><br>
+                        <label for="comments">Let a comment:</label><br>
+                        <textarea id="comments" name="comments" rows="5" cols="40" placeholder="How do you feel abou this project?"></textarea><br>
+                        <button onclick="alert('All done! Time to watch more Star Wars content! Or whatever your nerdy heart desires...')">Send a comment</button>
+                    </fieldset>
+                </form>
+            </section>
         </main>
-        <footer></footer>
+        <footer>
+            <p>&copy My first HTML page test. All rights reserved.</p>
+            <p>This project is based on a video lesson made by Rafaela Ballerini. To access the original content, <a href="https://www.youtube.com/watch?v=Fhy-5CtVkiM&t=5059s" target="_blank">click here.</a></p>
+        </footer>
     </body>
 
 
